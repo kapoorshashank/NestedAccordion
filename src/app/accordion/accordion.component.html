@@ -1,0 +1,14 @@
+<div class="container">
+    <div>
+      ID: {{data.id}} PID: {{data.pid?'data.pid':'none'}}
+    </div>
+    <div *ngIf="data.children" (click)="open();">
+      {{!flag? '+':'-'}}
+    </div>
+  </div>
+  <div *ngIf="data.children">
+    <div *ngFor="let child of data.children">
+      <accordion [data]="child"> </accordion>
+    </div>
+  </div>
+  
