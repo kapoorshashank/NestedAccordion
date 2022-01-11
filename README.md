@@ -1,4 +1,4 @@
-# Nested Accordion
+# Nested Accordion - An example of creating recursive Accordion component for n-levels.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.
 
